@@ -10,7 +10,7 @@ body {
 
 /* 
 @@@
-@@@@@header---------
+@@@@@-----header---------
 @@@ 
 */
 
@@ -37,6 +37,10 @@ header > .head_nav {
     padding: 0 10px;
 }
 
-input[type="text"] {
-    width: 100%;
-}
+
+
+/* 
+@@@
+@@@@@------ASIDE---------
+@@@ 
+*/
