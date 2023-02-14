@@ -44,3 +44,21 @@ header > .head_nav {
 @@@@@------ASIDE---------
 @@@ 
 */
+
+aside {
+    height: calc(100vh - 70px);
+    width: fit-content;
+    padding: 40px;
+}
+
+aside i {
+    padding-right: 20px;
+}
+
+.settings {
+    margin-top: auto;
+}
+
+aside > div {
+    padding-bottom: 10px;
+}
