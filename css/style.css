@@ -115,3 +115,40 @@ main {
 @@@ 
 */
 
+.main-cards table img {
+    width: 30px;
+}
+
+table td i {
+    padding: 5px;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+    border-radius: 5px;
+    
+}
+
+/* table .roi, .date {
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    table .roi, .date {
+        display: contents;
+    }
+} */
+
+table {
+    text-align: center;
+}
+
+table .name, tr > td:first-child {
+    text-align: left;
+}
+
+/* .todo {
+    border: 1px solid lightgray;
+}
+
+.todo .form-check {
+    border-top: 1px solid lightgray;
+} */
