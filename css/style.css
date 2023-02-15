@@ -46,7 +46,7 @@ aside {
 }
 
 aside i {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 /* 
 .settings {
@@ -61,6 +61,10 @@ aside > div {
     margin-top: auto;
 }
 
+aside {
+    background-color: #051e34;
+    background-image: url(/img/sidebar-bg.png);
+}
 /* 
 @@@
 @@@@@------MAIN---------
@@ -73,12 +77,19 @@ main {
     height: calc(100vh - 70px);
 }
 
+
+
+/* 
+@@@
+@@@@@------MAIN-TOP---------
+@@@ 
+*/
+
 .main-top {
     background-color: #1b72e8;
 }
 
 .main-top span {
-    padding: 2px 7px;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -86,3 +97,13 @@ main {
 .fa-angles-right {
     padding: 0 5px;
 }
+
+.main-top .fa-square-plus {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.main-top .numero-studenti, .fa-square-plus {
+    font-size: 30px;
+}
+

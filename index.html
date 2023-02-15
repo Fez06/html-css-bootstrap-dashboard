@@ -51,7 +51,7 @@
     
     <div class="main-aside d-flex">
 
-        <aside class="d-flex flex-column py-2 px-4 flex-shrink: 0;">
+        <aside class="d-flex flex-column py-2 px-4 flex-shrink: 0; text-white">
             <div class="row">
                 <div class="col-4">
                     <i class="fa-solid fa-house"></i>
@@ -90,27 +90,34 @@
         </aside>
 
         <main class="container-fluid">
-            <div class="main-top row">
-                <div class="col gy-2">
+            <div class="main-top row text-white">
+                <div class="col-12 col-md-4 col-lg-3 order-md-1 py-2 text-md-center px-md-4">
                     Nuovo Studente 
                     <i class="fa-regular fa-square-plus"></i>
                 </div>
 
-                <div class="col-12">
-                    <p>
+                <div class="col-12 titolo col-md-4 col-lg-6 py-2">
+                    <div>
                         <h1 class="d-inline">Boolean </h1>
-                        <span class="opaco">Piano blaze</span>
-                        <span class="opaco">3 app</span>
+                        <span class="badge">Piano blaze</span>
+                        <br>
+                        <span class="badge">3 app</span>
                         <i class="fa-solid fa-angles-right"></i>
-                        <span class="opaco">+</span>
-                    </p>
+                        <span class="badge d-lg-none">+</span>
+
+                        <div class="d-lg-inline d-none">
+                            <span class="badge">Boolean mobile app</span>
+                            <span class="badge">Boolean web app</span>
+                            <span class="badge">Boolean blog app</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 col-md-4 col-lg-3 py-2">
                     <div>
                         Studenti online negli ultimi 30 minuti
                     </div>                       
-                    <div class="pb-3 numero-studenti">125</div>                
+                    <div class="numero-studenti">125</div>                
                 </div>
             </div>
         </main>
