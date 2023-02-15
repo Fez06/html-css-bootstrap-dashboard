@@ -18,21 +18,21 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <div class="">
-        <header class="d-flex align-items-center">
-            <div class="head_nav container-fluid align-items-center justify-content-between d-flex">
-                
-                <div class="cornice">
-                    <img class="img-fluid" src="img/logo.svg" alt="logo">
+    <header class="d-flex align-items-center">
+        <div class="container-fluid head_nav">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <img class="img-fluid d-none d-lg-block" src="img/logo.svg" alt="logo"> 
+                    <img class="img-fluid d-lg-none" src="img/mobile-logo.png" alt="logo">
                 </div>
 
-                <div class="search text-center">
+                <div class="col">
                     <form action="search">
-                        <input type="text" placeholder="fkfk">
+                        <input class="form-control" type="text" value="Readonly input here..." aria-label="readonly input example" readonly>
                     </form>
                 </div>
 
-                <div class="nav-function d-flex align-items-center">
+                <div class="col-auto d-flex align-items-center nav-function">
                     <div class="d-none d-lg-block">
                         <i class="fa-solid fa-list-ul"></i>
                         <i class="fa-solid fa-circle-question"></i>
@@ -40,76 +40,77 @@
                     </div>
                     <i class="fa-solid fa-bell"></i>
                 </div>
-                
             </div>
-        </header>
-        <div class="main-aside d-flex">
+        </div>  
+    </header>
+    
+    <div class="main-aside d-flex">
 
-            <aside class="d-flex flex-column">
-                <div class="row">
-                    <div class="col-4">
-                        <i class="fa-solid fa-house"></i>
-                    </div>
-                    <div class="col-2 d-none d-lg-block">
-                        Home
-                    </div>
+        <aside class="d-flex flex-column flex-shrink: 0;">
+            <div class="row">
+                <div class="col-4">
+                    <i class="fa-solid fa-house"></i>
                 </div>
-                
-                <div class="row">
-                    <div class="col-4">
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-                    <div class="col-2 d-none d-lg-block">
-                        Stats
-                    </div>
+                <div class="col-2 d-none d-lg-block">
+                    Home
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-4">
+                    <i class="fa-solid fa-chart-simple"></i>
+                </div>
+                <div class="col-2 d-none d-lg-block">
+                    Stats
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <i class="fa-solid fa-signal"></i>
+                </div>
+                <div class="col-2 d-none d-lg-block">
+                    Signals
+                </div>
+            </div>
+
+            <div class="admin d-flex">
+                <div class="col-4">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <div class="col-12 d-none d-lg-block">
+                    Admin
+                </div>
+            </div>
+        </aside>
+
+        <main class="container-fluid">
+            <div class="main-top row">
+                <div class="col gy-2">
+                    Nuovo Studente 
+                    <i class="fa-regular fa-square-plus"></i>
                 </div>
 
-                <div class="row">
-                    <div class="col-4">
-                        <i class="fa-solid fa-signal"></i>
-                    </div>
-                    <div class="col-2 d-none d-lg-block">
-                        Signals
-                    </div>
+                <div class="col-12">
+                    <p>
+                        <h1 class="d-inline">Boolean </h1>
+                        <span class="opaco">Piano blaze</span>
+                        <span class="opaco">3 app</span>
+                        <i class="fa-solid fa-angles-right"></i>
+                        <span class="opaco">+</span>
+                    </p>
                 </div>
 
-                <div class="admin d-flex">
-                    <div class="col-4">
-                        <i class="fa-solid fa-gear"></i>
-                    </div>
-                    <div class="col d-none d-lg-block">
-                        Admin
-                    </div>
+                <div class="col-12">
+                    <div>
+                        Studenti online negli ultimi 30 minuti
+                    </div>                       
+                    <div class="pb-3 numero-studenti">125</div>                
                 </div>
-            </aside>
-
-            <main class="container-fluid">
-                <div class="main-top row flex-column">
-                    <div class="col gy-4">
-                        Nuovo Studente 
-                        <i class="fa-regular fa-square-plus"></i>
-                    </div>
-
-                    <div class="col">
-                        <p>
-                            <h1 class="d-inline">Boolean </h1>
-                            <span class="opaco">Piano blaze</span>
-                            <span class="opaco">3 app</span>
-                            <i class="fa-solid fa-angles-right"></i>
-                            <span class="opaco">+</span>
-                        </p>
-                    </div>
-
-                    <div class="col gy-4">
-                        <div>
-                            Studenti online negli ultimi 30 minuti
-                        </div>                       
-                        <div class="pb-3 numero-studenti">125</div>                
-                    </div>
-                </div>
-            </main>
-        </div>
+            </div>
+        </main>
     </div>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>

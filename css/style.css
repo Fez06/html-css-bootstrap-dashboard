@@ -1,8 +1,8 @@
-/* * {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-} */
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -20,14 +20,11 @@ header {
 }
 
 header > .head_nav {
-    background-color: white;
-    height: 50%;
+    background-color: orangered;
     width: 100%;
 }
 
-.cornice {
-    height: 100%;
-}
+
 
 .fa-bell {
     color: #ff8f00;
