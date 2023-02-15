@@ -51,7 +51,7 @@ aside {
     padding: 40px;
 }
 
-aside i {
+/* aside i {
     padding-right: 20px;
 }
 
@@ -61,4 +61,20 @@ aside i {
 
 aside > div {
     padding-bottom: 10px;
+} */
+
+.admin {
+    margin-top: auto;
+}
+
+/* 
+@@@
+@@@@@------MAIN---------
+@@@ 
+*/
+
+main {
+    width: calc(100% - 98px);
+    background-color: #ff8f00;
+    height: calc(100vh - 70px);
 }
