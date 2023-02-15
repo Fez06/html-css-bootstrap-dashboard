@@ -1,8 +1,8 @@
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -47,14 +47,13 @@ header > .head_nav {
 
 aside {
     height: calc(100vh - 70px);
-    width: fit-content;
-    padding: 40px;
+    padding: 20px;
 }
 
-/* aside i {
-    padding-right: 20px;
+aside i {
+    padding-bottom: 20px;
 }
-
+/* 
 .settings {
     margin-top: auto;
 }
@@ -77,4 +76,18 @@ main {
     width: calc(100% - 98px);
     background-color: #ff8f00;
     height: calc(100vh - 70px);
+}
+
+.main-top {
+    background-color: #1b72e8;
+}
+
+.main-top span {
+    padding: 2px 7px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fa-angles-right {
+    padding: 0 5px;
 }
