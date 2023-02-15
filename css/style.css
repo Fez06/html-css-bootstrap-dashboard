@@ -64,6 +64,7 @@ aside > div {
 aside {
     background-color: #051e34;
     background-image: url(/img/sidebar-bg.png);
+    overflow: hidden;
 }
 /* 
 @@@
@@ -75,6 +76,7 @@ main {
     width: calc(100% - 98px);
     background-color: #ff8f00;
     height: calc(100vh - 70px);
+    overflow-y: auto;
 }
 
 
@@ -106,4 +108,10 @@ main {
 .main-top .numero-studenti, .fa-square-plus {
     font-size: 30px;
 }
+
+/* 
+@@@
+@@@@@------MAIN-CARDS SECTION---------
+@@@ 
+*/
 
