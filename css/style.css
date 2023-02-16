@@ -48,14 +48,6 @@ aside {
 aside i {
     padding-bottom: 10px;
 }
-/* 
-.settings {
-    margin-top: auto;
-}
-
-aside > div {
-    padding-bottom: 10px;
-} */
 
 .admin {
     margin-top: auto;
@@ -127,16 +119,6 @@ table td i {
     
 }
 
-/* table .roi, .date {
-    display: none;
-}
-
-@media screen and (min-width: 720px) {
-    table .roi, .date {
-        display: contents;
-    }
-} */
-
 table {
     text-align: center;
 }
@@ -145,10 +127,10 @@ table .name, tr > td:first-child {
     text-align: left;
 }
 
-/* .todo {
-    border: 1px solid lightgray;
+.stats .bordo-card {
+    order: 1px solid #6c757d;
 }
 
-.todo .form-check {
-    border-top: 1px solid lightgray;
-} */
+.accordion-collapse .collapse {
+    transform: rotate(-180deg);
+}
