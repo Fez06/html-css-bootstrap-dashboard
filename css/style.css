@@ -58,6 +58,17 @@ aside {
     background-image: url(/img/sidebar-bg.png);
     overflow: hidden;
 }
+
+aside .row:hover {
+    background-color: lightgray;
+    opacity: 0.9;
+}
+
+aside .admin:hover {
+    background-color: lightgray;
+    opacity: 0.9;
+}
+
 /* 
 @@@
 @@@@@------MAIN---------
