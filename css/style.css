@@ -133,6 +133,7 @@ main {
         width: 50%;
     }
 }
+
 /* 
 @@@
 @@@@@------MAIN-CARDS SECTION---------
@@ -159,10 +160,25 @@ table .name, tr > td:first-child {
     text-align: left;
 }
 
+tbody tr:hover {
+    background-color: lightgrey;
+    
+}
+
 .stats .bordo-card {
     order: 1px solid #6c757d;
 }
 
 .accordion-collapse .collapse {
     transform: rotate(-180deg);
+}
+
+/* 
+@@@
+@@@@@------OFFCANVAS---------
+@@@ 
+*/
+
+.form-label, #offcanvasRightLabel {
+    font-weight: bold;
 }
