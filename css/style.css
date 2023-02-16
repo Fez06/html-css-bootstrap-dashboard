@@ -16,6 +16,7 @@ body {
 
 header {
     background: #f8f9fa;
+    height: 66px;
 }
 
 header > .head_nav {
@@ -31,7 +32,10 @@ header > .head_nav {
     padding: 0 10px;
 }
 
-
+.logo-bool img{
+    width: 50px;
+    height: auto;
+}
 
 
 
@@ -42,7 +46,7 @@ header > .head_nav {
 */
 
 aside {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 66px);
 }
 
 aside i {
@@ -76,9 +80,9 @@ aside .admin:hover {
 */
 
 main {
-    width: calc(100% - 98px);
-    background-color: #ff8f00;
-    height: calc(100vh - 70px);
+    /* width: calc(100% - 98px); */
+    background-color: #f8f9fa;
+    height: calc(100vh - 66px);
     overflow-y: auto;
 }
 
@@ -105,13 +109,30 @@ main {
 
 .main-top .fa-square-plus {
     vertical-align: middle;
-    padding-left: 10px;
 }
 
 .main-top .numero-studenti, .fa-square-plus {
     font-size: 30px;
 }
 
+.main-top .fa-square-plus:hover {
+    background-color: white;
+    color: #1b72e8;
+}
+
+#offcanvasRight {
+    visibility: visible;
+}
+
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas.offcanvas-end {
+        width: 50%;
+    }
+}
 /* 
 @@@
 @@@@@------MAIN-CARDS SECTION---------
